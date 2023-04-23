@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-hKAv0i0dOt5w5c5L4G4i4SKKMSJX9oyvN/gGukP76KeYbYyKhd8wvKjC04QzFtYZnZnXzjvPtu+eTEl7VYjRA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>plan your trip</title>
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <!-- Left side of navbar -->
+                <div class="flex-shrink-0 flex items-center">
+                    <img class="h-8 w-auto" src="logo.png" alt="Logo">
+                    <h5 class="text-slate-50 mx-4 text-xl text-center ">PlanMyTrip</h5>
+                </div>
+                <!-- Right side of navbar -->
+                <div class="flex items-center">
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                    <a href="#"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Register</a>
+                    <a href="login.html"
+                        class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- plan trip types -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-8 text-center">Plan Your Trip</h2>
+            <div class="flex justify-center">
+                <div class="bg-white rounded-lg shadow-lg w-64 m-4 hover:shadow-xl">
+                    <div class="bg-cover bg-center h-48 rounded-t-lg"
+                        style="background-image:  url('./assets/type/solo.png'); background-size: contain;"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2 text-center">Solo</h3>
+                        <p class="text-gray-700 text-base text-center">Travel alone and explore the world at your own
+                            pace.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg w-64 m-4 hover:shadow-xl">
+                    <div class="bg-cover bg-center h-48 rounded-t-lg"
+                        style="background-image: url('./assets/type/family.png'); background-size: contain;"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2 text-center">Family</h3>
+                        <p class="text-gray-700 text-base text-center">Enjoy quality time with your loved ones and
+                            create unforgettable memories.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg w-64 m-4 hover:shadow-xl">
+                    <div class="bg-cover bg-center h-48 rounded-t-lg"
+                        style="background-image: url('./assets/type/friends.png'); background-size: contain;"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2 text-center">Friends</h3>
+                        <p class="text-gray-700 text-base text-center">Experience new adventures with your closest
+                            friends and make unforgettable memories together.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="bg-white-200 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 class="text-3xl font-bold mb-8 text-center">Plan Your Trip</h2>
+          <div class="flex justify-center">
+            <div class="bg-white rounded-full overflow-hidden shadow-lg w-64 m-4 hover:shadow-xl">
+              <div class="bg-contain h-48" style="background-image: url('./assets/type/solo.png');"></div>
+              <div class="p-4">
+                <h3 class="font-bold text-xl mb-2 text-center">Solo</h3>
+                <p class="text-gray-700 text-base text-center">Travel alone and explore the world at your own pace.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-full overflow-hidden shadow-lg w-64 m-4 hover:shadow-xl">
+              <div class="bg-contain h-48" style="background-image: url('./assets/type/family.png');"></div>
+              <div class="p-4">
+                <h3 class="font-bold text-xl mb-2 text-center">Family</h3>
+                <p class="text-gray-700 text-base text-center">Enjoy quality time with your loved ones and create unforgettable memories.</p>
+              </div>
+            </div>
+            <div class="bg-white rounded-full overflow-hidden shadow-lg w-64 m-4 hover:shadow-xl">
+              <div class="bg-contain h-48" style="background-image: url('./assets/type/friends.png');"></div>
+              <div class="p-4">
+                <h3 class="font-bold text-xl mb-2 text-center">Friends</h3>
+                <p class="text-gray-700 text-base text-center">Experience new adventures with your closest friends and make unforgettable memories together.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-8 text-center">Top Places to Visit</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/araku.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Araku</h3>
+                        <p class="text-gray-700 text-base">Experience the breathtaking beauty of the Eastern Ghats in
+                            this picturesque valley in Andhra Pradesh.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/goa.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Goa</h3>
+                        <p class="text-gray-700 text-base">Relax on the sandy beaches, party all night long, and indulge
+                            in delicious seafood in this coastal paradise.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/jaipur.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Jaipur</h3>
+                        <p class="text-gray-700 text-base">Explore the rich culture and history of the Pink City, with
+                            its magnificent forts, palaces, and museums.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/kerala.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Kerala</h3>
+                        <p class="text-gray-700 text-base">Discover the natural beauty and cultural richness of God's
+                            Own Country, with its serene backwaters, lush green hills, and vibrant festivals.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/ladakh.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Ladakh</h3>
+                        <p class="text-gray-700 text-base">Experience the rugged beauty and adventure of the Himalayas,
+                            with its stunning landscapes, unique culture, and thrilling activities.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/manali.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Manali</h3>
+                        <p class="text-gray-700 text-base">Escape to the tranquil beauty of the Himalayas, with its
+                            snow-capped peaks, glistening rivers, and picturesque valleys.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/munnar.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Munnar</h3>
+                        <p class="text-gray-700 text-base">Savor the refreshing beauty and flavor of tea in this idyllic
+                            hill station in Kerala, with its rolling hills, lush green plantations, and charming
+                            cottages.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/ooty.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Ooty</h3>
+                        <p class="text-gray-700 text-base">Experience the serene beauty and colonial charm of this
+                            quaint hill station in Tamil Nadu, with its misty hills, pristine lakes, and charming
+                            gardens.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl">
+                    <div class="bg-cover h-48" style="background-image: url('./assets/places/shimla.jpg');"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">Shimla</h3>
+                        <p class="text-gray-700 text-base">Immerse yourself in the enchanting beauty and colonial legacy
+                            of the Queen of Hills, with its majestic mountains, charming streets, and cozy cafes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer  -->
+    <footer class="bg-gray-900 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-0">
+                    <p class="text-gray-500 text-sm">Terms &amp; Conditions</p>
+                    <ul class="mt-4 leading-loose">
+                        <li><a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">Privacy
+                                Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">Terms of
+                                Service</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">Refund
+                                Policy</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-0">
+                    <a href="contact.html" class="text-gray-500 text-sm">Contact Us</a>
+                    <ul class="mt-4 leading-loose">
+                        <li><a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">Email:
+                                planmytrip@gamil.com</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">Phone:
+                                +91-1234567890</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">Address: 123
+                               Duvvada , VSKP - INDIA</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/2 lg:w-1/3 mb-4 md:mb-0">
+                    <p class="text-gray-500 text-sm">Follow Us</p>
+                    <ul class="mt-4 flex flex-wrap">
+                        <li class="mr-4">
+                            <a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">
+                                <img src="./assets/facebook.png" alt="" width="30px">
+                            </a>
+                        </li>
+                        <li class="mr-4">
+                            <a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">
+                                <img src="./assets/instagram.png" style="filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+                    " alt="" width="30px">
+                            </a>
+                        </li>
+                        <li class="mr-4">
+                            <a href="#" class="text-gray-400 hover:text-gray-100 transition duration-300">
+                                <img src="./assets/youtube.png" alt="" width="30px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
